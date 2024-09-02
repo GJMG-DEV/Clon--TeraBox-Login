@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+}
+body{
+background-color: #E8F4FF;
+}
+.img-fluid{
+
+    height: 55px;
+    margin-bottom: 50px;
+}
+.icono{
+    height:50px ;
+    width: 50px;
+    margin-right: 20px;
+
+}
+.text-card-header{
+    line-height: 150%;
+    font-size: 14px;
+
+}
+.card{
+    height: 68vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.card-header{
+    background: url('../img/cabecera.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 500px;
+    height: 90px;
+    padding: 20px;
+    color: #fff;
+    display: flex;
+}
+.card-body{
+    background-color: #fff;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 500px;
+    height: 150px;
+    padding: 20px;
+}
+.text-body{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #666666;
+}
+.form-control-text{
+    padding: 10px;
+    border-radius: 5px;
+    border-color: 666666;
+    width: 300px;
+    border: 1px solid #d4d4d4;
+    margin-right: 5px;
+}
+.form-control-text:focus{
+    border: 1px solid #d4d4d4;
+}
+.btn-primary{
+    padding: 10px;
+    background-color: #006bf8;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+.btn-primary:hover{
+    cursor: pointer;
+}
+
+
+footer{
+
+    width: 100%;
+    height: 300px;
+    background-color: #e8f4ff;
+    background-image: url('../img/nube.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
